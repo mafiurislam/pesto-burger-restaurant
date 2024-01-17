@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>restaurant</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+	<!-- boostrap icon -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+	<!-- boxicon -->
+
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- slick-slider -->
+
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+   <!-- Aos cdn -->
+
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container">
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+         <a href="#"><img src="images/logo.png" alt=""></a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-3">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">menu</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            pages
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <!-- <li><hr class="dropdown-divider"></li> -->
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-disabled="true">shop</a>
+        </li>
+      </ul>
+        <div class="order me-5">
+			<div class="icon">
+				<img src="images/teliphone.png" alt="">
+			</div>
+			<div class="text">
+				<p>hotline order</p>
+				<a href="tel:9382559266">9382559266</a>
+			</div>
+		</div>
+
+		<ul class="nav-two">
+			<li><a href="#"><img src="images/header-account.png" alt=""></a></li>
+			<li><a href="#"><img src="images/shop.png" alt=""></a></li>
+			<li><a href="#"><img src="images/indian-flag.png" alt=""></a></li>
+		</ul>
+
+    </div>
+  </div>
+</nav>
+
+
+
+
+	
+<!-- <div class="header">
+	<div class="container">
+		<div class="d-flex">
+			<div class="logo">
+				<a href="#"><img src="images/logo.png" alt=""></a>
+			</div>
+			<nav>
+				<ul class="primary-nav">
+					<li><a href="#">home</a></li>
+					<li><a href="#">menu</a></li>
+					<li class="has-nav"><a href="#">pages</a><i class="bi bi-chevron-down"></i></li>
+					<li><a href="#">shop</a></li>
+				</ul>
+			</nav>
+			<div class="order">
+					<div class="icon">
+						<img src="images/teliphone.png" alt="">
+					</div>
+					<div class="text">
+						<p>hotline order</p>
+						<a href="tel:9382559266">9382559266</a>
+					</div>
+			</div>
+
+			<div class="nav-two">
+				<div class="account">
+					<img src="images/header-account.png" alt="">
+				</div>
+				<div class="shpo">
+					<img src="images/shop.png" alt="">
+				</div>
+				<div class="country">
+					<img src="images/indian-flag.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+ -->
+
+<div class="banner">
+	<!-- <div class="banner-box">
+	    <img src="images/banner.png" alt="">
+	</div> -->
+
+	<div class="container">
+		<div class="banner-title">
+			<h1>grilled beef <br>burger</h1>
+			<p>special deal on only <strong>tuesday</strong> every weeks</p>
+			<h2>buy 3 get 4th free!</h2>
+			<a href="#">order now</a>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- MENU -->
+
+<section class="menu">
+	<div class="container">
+		<div class="title">
+			<h3 class="text-center">pesto's menu</h3>
+		</div>
+		<div class="row justify-content-between">
+			<div class="col-lg-2 col-md-4" id="circle">
+				<div class="box" data-aos="fade-up">
+					<img src="images/menu-1.png" alt="">
+					<h5 class="text-center">what's hot</h5>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-4" id="circle">
+				<div class="box" data-aos="fade-up">
+					<img src="images/menu-2.png" alt="">
+					<h5 class="text-center">burger</h5>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-4" id="circle">
+				<div class="box" data-aos="fade-up">
+					<img src="images/menu-3.png" alt="">
+					<h5 class="text-center">what's hot</h5>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-4" id="circle">
+				<div class="box" data-aos="fade-up">
+					<img src="images/menu-4.png" alt="">
+					<h5 class="text-center">what's hot</h5>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-4" id="circle">
+				<div class="box" data-aos="fade-up">
+					<img src="images/menu-5.png" alt="">
+					<h5 class="text-center">what's hot</h5>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-4" id="circle">
+				<div class="box" data-aos="fade-up">
+					<img src="images/menu-6.png" alt="">
+					<h5 class="text-center">what's hot</h5>
+				</div>
+			</div>
+		</div>
+
+		<div class="services">
+			<div class="row">
+				<div class="col-lg-5">
+					<div class="box" data-aos="fade-up">
+						<img src="images/services-1.png" alt="">
+						<div class="text">
+							<h4>free shoping</h4>
+							<h3>fast <br>delivery</h3>
+							<p>hotline</p>
+							<a href="tel:9382559266">9382559266</a>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-lg-7">
+					<div class="box" data-aos="fade-up">
+						<img src="images/services-2.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="box" data-aos="fade-up">
+						<img src="images/services-3.png" alt="">
+						<div class="text">
+							<h3>double <br>king <br>cheese</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="box" data-aos="fade-up">
+						<img src="images/services-4.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="box" data-aos="fade-up">
+						<img src="images/services-5.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section class="seller">
+	<div class="container">
+		<div class="title">
+			<h3 class="text-center">our best seller</h3>
+		</div>
+
+		<div class="seller-slider">
+			<div>
+				<div class="item">
+					<div class="icon">
+						<img src="images/hurt.png" alt="">
+					</div>
+					<div class="image-box">
+						<img src="images/item-1.png" alt="">
+					</div>
+					<div class="img-title">
+						<h4>double cheese burger</h4>
+						<h5>double cheese burger, Size M, L, XL</h5>
+						<strong>$29.00 - $49.00</strong>
+						<div class="d-flex">
+							<div class="option">
+								<img src="images/option.png" alt="">
+							</div>
+							<a href="#">select option</a>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="item active">
+					<div class="icon">
+						<img src="images/hurt.png" alt="">
+					</div>
+					<div class="image-box">
+						<img src="images/item-2.png" alt="">
+					</div>
+					<div class="img-title">
+						<h4>double cheese burger</h4>
+						<h5>double cheese burger, Size M, L, XL</h5>
+						<strong>$29.00 - $49.00</strong>
+						<div class="d-flex">
+							<div class="option">
+								<img src="images/option.png" alt="">
+							</div>
+							<a class="active" href="#">view cart</a>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="item">
+					<div class="icon">
+						<img src="images/hurt.png" alt="">
+					</div>
+					<div class="image-box">
+						<img src="images/item-3.png" alt="">
+					</div>
+					<div class="img-title">
+						<h4>double cheese burger</h4>
+						<h5>double cheese burger, Size M, L, XL</h5>
+						<strong>$29.00 - $49.00</strong>
+						<div class="d-flex">
+							<div class="option">
+								<img src="images/option.png" alt="">
+							</div>
+							<a href="#">add to cart</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="item">
+					<div class="icon">
+						<img src="images/hurt.png" alt="">
+					</div>
+					<div class="image-box">
+						<img src="images/item-4.png" alt="">
+					</div>
+					<div class="img-title">
+						<h4>double cheese burger</h4>
+						<h5>double cheese burger, Size M, L, XL</h5>
+						<strong>$29.00 - $49.00</strong>
+						<div class="d-flex">
+							<div class="option">
+								<img src="images/option.png" alt="">
+							</div>
+							<a href="#">add to cart</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="item">
+					<div class="icon">
+						<img src="images/hurt.png" alt="">
+					</div>
+					<div class="image-box">
+						<img src="images/item-1.png" alt="">
+					</div>
+					<div class="img-title">
+						<h4>double cheese burger</h4>
+						<h5>double cheese burger, Size M, L, XL</h5>
+						<strong>$29.00 - $49.00</strong>
+						<div class="d-flex ">
+							<div class="option">
+								<img src="images/option.png" alt="">
+							</div>
+							<a href="#">add to cart</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<a id="product" href="#">see all product</a>
+	</div>
+</section>
+
+
+
+
+<section class="menu-board">
+	<div class="container">
+		<div class="content">
+			<div class="title">
+			   <h3 class="text-center">pesto's menu board</h3>
+		    </div>
+
+			<div class="menu-list">
+				<div class="d-flex">
+					<div class="lt-block">
+						<div class="top-block">
+							<h4 class="text-center">special combo</h4>
+							<ul>
+								<li>happy lunch combo <span>$79.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+
+								<li>pesto's combo<span>$65.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+
+								<li>weekend combo<span>$89.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+
+								<li>family combo<span>$69.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+
+								<li>kid's combo<span>$49.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+							</ul>
+						</div>
+
+						<div class="bottom-block">
+							<h4 class="text-center">snacks</h4>
+							<ul>
+								<li>chicken crispy <span>$19.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+
+								<li>fries<span>$9.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+
+								<li>southwest chicken salad<span>$12.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+
+								<li>mostep teco<span>$65.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+
+								<li>chocolate shake<span>$6.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+
+								<li>pesto ice cream<span>$6.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+							</ul>
+						</div>
+					</div>
+					<div class="rt-block">
+						<div class="top-block">
+							<h4 class="text-center">burgers</h4>
+							<ul>
+								<li>bacon burger <span>$79.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+
+								<li>double cheese burger<span>$29.00 - $49.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+
+								<li>weekend combo<span>$89.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+
+								<li>family combo<span>$69.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+
+								<li>kid's combo<span>$49.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+
+								<li>kid's combo<span>$49.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+
+								<li>kid's combo<span>$49.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+
+								<li>kid's combo<span>$49.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+
+								<li>kid's combo<span>$49.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+							</ul>
+						</div>
+						<div class="bottom-block">
+							<h4 class="text-center">drinks</h4>
+							<ul>
+								<li>chicken crispy <span>$19.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+
+								<li>fries<span>$9.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+
+								<li>southwest chicken salad<span>$12.00</span></li>
+								<p>Lorem ipsum dolor sit amet.</p>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+		    </div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+<section class="textimonials">
+	<div class="container">
+		<div class="textimonials_content">
+			<div class="title">
+				<h3 class="text-center">textimonials</h3>
+			</div>
+
+			<div class="textimonials-slider">
+				<div>
+					<div class="box">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia accusamus sed accusantium ratione adipisci perferendis, porro error! Possimus sint perspiciatis ut quibusdam, non, repellendus minima consequatur nostrum inventore accusantium harum.</p>
+						<div class="d-flex">
+							<div class="man">
+								<img src="images/" alt="">
+							</div>
+							<div class="text">
+								<h4>ibrahima kontate</h4>
+								<h6>hair stylist</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="box">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia accusamus sed accusantium ratione adipisci perferendis, porro error! Possimus sint perspiciatis ut quibusdam, non, repellendus minima consequatur nostrum inventore accusantium harum.</p>
+						<div class="d-flex">
+							<div class="man">
+								<img src="images/" alt="">
+							</div>
+							<div class="text">
+								<h4>ibrahima kontate</h4>
+								<h6>hair stylist</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="box">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia accusamus sed accusantium ratione adipisci perferendis, porro error! Possimus sint perspiciatis ut quibusdam, non, repellendus minima consequatur nostrum inventore accusantium harum.</p>
+						<div class="d-flex">
+							<div class="man">
+								<img src="images/" alt="">
+							</div>
+							<div class="text">
+								<h4>ibrahima kontate</h4>
+								<h6>hair stylist</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+<section class="news">
+	<!-- <div class="bg-img-box">
+		<img src="images/news-bg.png" alt="">
+	</div> -->
+	<div class="news-content">
+		<div class="container">
+				<div class="title">
+					<h3 class="text-center">news & career</h3>
+				</div>
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="box" data-aos="flip-right">
+							<div class="image-box">
+							    <img src="images/news-1.png" alt="">
+						    </div>
+						    <div class="bottom-text">
+						    	<h3>promotion programe in july, 2023</h3>
+						    	<h6><span>promotion</span> / july 12, 2023</h6>
+						    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, atque [....]</p>
+						    </div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="box" data-aos="flip-right">
+							<div class="image-box">
+							    <img src="images/news-2.png" alt="">
+						    </div>
+						    <div class="bottom-text">
+						    	<h3>promotion programe in july, 2023</h3>
+						    	<h6><span>news</span> / july 12, 2023</h6>
+						    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, atque [....]</p>
+						    </div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="box" data-aos="flip-right">
+							<div class="image-box">
+							    <img src="images/news-3.png" alt="">
+						    </div>
+						    <div class="bottom-text">
+						    	<h3>promotion programe in july, 2023</h3>
+						    	<h6><span>news</span> / july 12, 2023</h6>
+						    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, atque [....]</p>
+						    </div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="box" data-aos="flip-right">
+							<div class="image-box">
+							    <img src="images/news-4.png" alt="">
+						    </div>
+						    <div class="bottom-text">
+						    	<h3>promotion programe in july, 2023</h3>
+						    	<h6><span>company</span> / july 12, 2023</h6>
+						    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, atque [....]</p>
+						    </div>
+						</div>
+					</div>
+				</div>
+
+
+		<!-- discount -->
+
+				<div class="discount">
+					<div class="title">
+						<h3 class="text-center">subscribe & get <span>10%</span> discount</h3>
+						<p class="text-center">Be the first to get the latest news, promotions and much more.</p>
+					</div>
+
+					<div class="box">
+						 <div class="icon">
+							<i class="bi bi-envelope"></i>
+						</div> 
+						<input id="email" type="email" placeholder="Enter your email address">
+					  <div class="button">
+					  	<a href="#">Subscribe</a>
+					  </div>
+					</div>
+					<h5 class="text-center">By subscribing, you accepted our policy</h5>
+				</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+<div class="footer">
+	<!-- <div class="footer-img-box">
+		<img src="images/footer-banner.png" alt="">
+	</div> -->
+	<div class="footer-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="box">
+						<li><a href="#">contact us</a></li>
+						<h5>hotline order</h5>
+						<a href="tel:9382559266">9382559266</a>
+						<p>ashoknager, putia,bhatchhala,pin-743263</p>
+						<div class="email">
+							<a href="mailto:mafiurislam366@gmail.com">mafiurislam366@gmail.com</a>
+						</div>
+
+						<ul class="social">
+							<li><a href="#"data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="twitter"><i class='bx bxl-twitter bx-flashing' style='color:#ffffff' ></i></a></li>
+
+							<li><a href="#"data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="facebook"><i class='bx bxl-facebook bx-flashing' style='color:#ffffff'  ></i></a></li>
+
+							<li><a href="#"data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="instagram"><i class='bx bxl-instagram bx-flashing' style='color:#ffffff' ></i></a></li>
+
+							<li><a href="#"data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="youtube"><i class='bx bxl-youtube bx-flashing' style='color:#ffffff' ></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="box">
+						<li><a href="#">opening-our</a></li>
+						  <ul class="opening-our">
+						  	<li class="active">Mon ................  <span>9.00 - 20.30</span></li>
+								<li>Tue ................  <span>9.00 - 20.30</span></li>
+								<li>Wed ................  <span>9.00 - 20.30</span></li>
+								<li>Thu ................  <span>9.00 - 20.30</span></li>
+								<li>Fri ................  <span>9.00 - 20.30</span></li>
+								<li>Sat ................  <span>9.00 - 11.30</span></li>
+								<li>Sun ................  <span>9.00 - Closed</span></li>
+						  </ul>
+					</div>
+				</div>
+
+				<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="box">
+						<li><a href="#">information</a></li>
+						   <ul class="information">
+						   	  <li><a class="active" href="#">About Pesto</a></li>
+						   	  <li><a href="#">Track My Order</a></li>
+						   	  <li><a href="#">Blof</a></li>
+						   	  <li><a href="#">Carrer</a></li>
+						   	  <li><a href="#">Contact</a></li>
+						   	  <li><a href="#">Contact</a></li>
+						   	  <li><a href="#">Return Policy</a></li>
+						   	  <li><a href="#">FAQ</a></li>
+						   	  <li><a href="#">Stores Location</a></li>
+						   </ul>
+					</div>
+				</div>
+				
+
+				<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="box">
+						<li><a href="#">newsletter</a></li>
+						 <p id="f-letter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, quos.</p>
+						 <div class="input-box">
+							 	<input id="footer-email" type="email" placeholder="Enter your email">
+							 	<div class="f-button">
+							 		<a href="#">subscribe</a>
+							 	</div>
+						 </div>
+						 <h5>By subscribing, you accepted our policy</h5>
+					</div>
+				</div>
+			</div>
+			<h6 class="text-center">Lorem ipsum dolor sit amet.</h6>
+	  </div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<!-- jquary cdn -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<!-- tooltips -->
+
+<script>
+	const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+
+<!-- Aos script -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
+<!-- slider script -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+<script>
+$('.seller-slider').slick({
+  dots: false,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  prevArrow:'<button class="prev"><i class="bi bi-chevron-left"></i></button>',
+  nextArrow:'<button class="next"><i class="bi bi-chevron-right"></i></button>',
+  responsive: [
+
+  	{
+      breakpoint: 1570,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: false,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: false,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+		
+</script>
+
+<script>
+$('.textimonials-slider').slick({
+  dots: false,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  prevArrow:'<button class="prev"><i class="bi bi-chevron-left"></i></button>',
+  nextArrow:'<button class="next"><i class="bi bi-chevron-right"></i></button>',
+  responsive: [
+
+  	{
+      breakpoint: 1399,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: false,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: false,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+		
+</script>
+
+
+</body>
+</html>
